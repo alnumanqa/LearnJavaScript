@@ -1,1 +1,1 @@
-console.log("Another default constructor")
+o
