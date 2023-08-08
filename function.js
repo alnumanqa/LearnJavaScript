@@ -38,8 +38,16 @@ let add = function(a,b){
     return c+d;
 }
 
+let subtract = ()=>{
+    return 15-10;
+}
+
+console.log(subtract())
+
+
+
 let val1 = add2(5,6)
 console.log(val1)
 
 let val2 = (e,f)=> e*f;
-console.log(val2(2,2))
+console.log(val2(2,2));

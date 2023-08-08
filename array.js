@@ -47,7 +47,7 @@ console.log(arr2.includes("Babar"))
 
 //for loop
 let arr3 = ["Virat", "Babar", "Sakib", "root"];
-for(let i = 0; i < arr3.length; i++){
+for(const i = 0; i < arr3.length; i++){
     console.log(arr3[i])
 }
 let numbers = [12,13,14,16, 19];
@@ -127,7 +127,7 @@ value of callbackFn is passed into callbackFn again on next invocation as accumu
 
 */
 
-let totalVal = mappedArray.reduce((sum, val)=>sum+val);
+let totalVal = mappedArray.reduce((sum, val)=>sum*val);
 console.log("After using reduce(): " + totalVal)
 
 //use of foreach()
